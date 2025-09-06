@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cspm",
+    "title": "CSPM Executive Dashboard",
+    "widgets": [
+      {
+        "id": "cloudAccounts",
+        "title": "Cloud Accounts",
+        "type": "donut",
+        "data": [
+          {
+            "name": "Connected",
+            "value": 2
+          },
+          {
+            "name": "Not Connected",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "riskAssessment",
+        "title": "Cloud Account Risk Assessment",
+        "type": "donut",
+        "data": [
+          {
+            "name": "Failed",
+            "value": 1689
+          },
+          {
+            "name": "Warning",
+            "value": 681
+          },
+          {
+            "name": "Not Available",
+            "value": 36
+          },
+          {
+            "name": "Passed",
+            "value": 7253
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cwpp",
+    "title": "CWPP Dashboard",
+    "widgets": [
+      {
+        "id": "alerts",
+        "title": "Top 5 Namespace Specific Alerts",
+        "type": "empty"
+      },
+      {
+        "id": "workloads",
+        "title": "Workloads",
+        "type": "empty"
+      }
+    ]
+  },
+  {
+    "id": "registry",
+    "title": "Registry Scan",
+    "widgets": [
+      {
+        "id": "imageRisk",
+        "title": "Image Risk Assessment",
+        "type": "hbar",
+        "data": [
+          {
+            "name": "Critical",
+            "value": 9
+          },
+          {
+            "name": "High",
+            "value": 150
+          },
+          {
+            "name": "Medium",
+            "value": 255
+          },
+          {
+            "name": "Low",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "id": "imageSecurity",
+        "title": "Image Security Issues",
+        "type": "hbar",
+        "data": [
+          {
+            "name": "Critical",
+            "value": 2
+          },
+          {
+            "name": "High",
+            "value": 2
+          },
+          {
+            "name": "Medium",
+            "value": 1
+          },
+          {
+            "name": "Low",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+]
